@@ -316,6 +316,8 @@ h5 a{
 .blog-box{
     flex: 1;
     position: relative;
+    flex-basis: 300px;
+
 }
 .blog-box::before{
     content: '';
@@ -365,4 +367,65 @@ h5 a{
 .blog-box:hover .blog-content{
     opacity: 1;
     visibility: visible;
+}
+form{
+    gap: 3rem;
+}
+form h3{
+    font-size: 1.4rem;
+}
+.input-container{
+    flex: 1;
+    align-items: stretch;
+}
+#email{
+    border: none;
+    flex: 1;
+    font-size: 1rem;
+    padding-left: 1.1rem;
+    border-radius: 20px;
+    margin-top: 6px;
+    padding-left: 1.1rem;
+}
+#email:focus{
+    outline:none;
+}
+.social-icon{
+    gap:1.2rem;
+    justify-content: flex-end;
+}
+.media{
+    font-size:1.2rem;
+    color: var(--link-color);
+}
+/* footer style */
+.footer-list{
+    flex: 1;   
+    padding-block: 1rem;
+    flex-basis: 200px;
+}
+.footer-link{
+    font-size: .9rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--link-color);
+    line-height: 2.25rem;
+}
+.footer-logo{
+    margin-bottom: 1rem;
+}
+.detail{
+    font-size: .95rem;
+    line-height: 1.75rem;
+    color: #6e6e6e;
+}
+.footer-bottom{
+    padding-block: .95rem;
+    text-align: center;
+    color: #6e6e6e;
+    border-top: .065rem solid #ebebeb;
+    font-size: .95rem;
+}
+.footer-container{
+    padding-bottom: 3rem;
 }
